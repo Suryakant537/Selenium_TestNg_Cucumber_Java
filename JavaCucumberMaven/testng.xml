@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BDD Selenium Java Test Suite" parallel="tests" thread-count="1">
+<!--    <listeners>-->
+<!--        <listener class-name="io.qameta.allure.testng.AllureTestNg" />-->
+<!--    </listeners>-->
+    <test name="Cucumber Test">
+
+   <classes>
+     <class name="TestRunner.Runner"></class>
+   </classes>
+   
+ </test>
+</suite>

@@ -1,0 +1,8 @@
+{
+  "APP_URL":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "Get_API_URL":"https://reqres.in",
+  "Post_API_URL": "https://reqres.in/api/users",
+  "Put_API_URL": "https://reqres.in/api/users/2",
+  "Patch_API_URL": "https://reqres.in/api/users/2",
+  "Delete_API_URL": "https://reqres.in/api/users/2"
+}
