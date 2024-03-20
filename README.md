@@ -21,9 +21,13 @@ Win  : Alt+1
 mac : Cmd+1 
 
 create new dependency in pom
+
 Code ＞ Generate
+
 Win : Alt+Insert
+
 Mac : Cmd+N
+
 
 Ctrl+E : navigate to last files
 
