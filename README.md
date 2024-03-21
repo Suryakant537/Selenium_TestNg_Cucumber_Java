@@ -51,11 +51,17 @@ Ctrl+E : navigate to last files
 Shift + Ctrl + F12 : hide other windows 
 **********************************************************
 In test folder under java folder we make the packages
+
 ** we make five packages in java folder**
+
 ** first features
+
 ** second pages
+
 ** thrid runner
+
 ** fourth StepDefinition
+
 ** fifth utility
 
 ** we right click on test folder then click on new then click on resources bunders**
