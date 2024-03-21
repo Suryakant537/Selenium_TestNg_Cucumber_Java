@@ -57,9 +57,14 @@ In test folder under java folder we make the packages
 ** thrid runner
 ** fourth StepDefinition
 ** fifth utility
+
 ** we right click on test folder then click on new then click on resources bunders**
+
 ** then click on test folder then click on new then click on Directory under Directory we select the resources
 ** then we will get resource folder
+
 ** right click on resource folder then click on new then click on directory**
+
 ** in directory put the name drivers then we will get drivers folders
+
 ** in driver folder we will put the chrome driver
