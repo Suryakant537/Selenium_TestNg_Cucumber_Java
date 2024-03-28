@@ -54,23 +54,47 @@ In test folder under java folder we make the packages
 
 ** we make five packages in java folder**
 
-** first features
+** -> features
 
-** second pages
+** -> pages
 
-** thrid runner
+** -> thrid runner
 
-** fourth StepDefinition
+** -> fourth StepDefinition
 
-** fifth utility
+** -> fifth utility
 
-** we right click on test folder then click on new then click on resources bunders**
+************************************************************
+step1 : add plugins in project
+** click on file and clcik on setting in setting click on plugins and plugins
+1: like cucumber 2: cucumber for java
+ step2 : add dependencies related cucumber in our project 
+  ** search in google maven repository 
+  ** click on maven repository and search cucumber jvm: java
+  ** select the version 6.11.0
+  ** add cucumber core- select cucumber jvm:core
+     select the version 6.11.0
+  ** add cucumber junit - select cucumber jvm:Junit 4
+     select the version 6.11.0
+ *** add selenium dependencies
+  ** search selenium java
+  ** select selinium java
+     select the version 4.17.0
+**** search webderivermanager :select the boni garcia link
+** select the 2 setup dependencies
+select the version 5.0.3
 
-** then click on test folder then click on new then click on Directory under Directory we select the resources
-** then we will get resource folder
+step 3:***** creating the folders
+**  Test folder under java folder we will create the packages
+we will create five folder under java packages
+** first package create features
+** second package create pages
+** third package create runner
+** fourth package create stepdefinition
+** fifth package create utility
 
-** right click on resource folder then click on new then click on directory**
+  LoggedIn feature create
+step 4 ****** click on features folder then click on new then select file and given name LoggedIn.feature
 
-** in directory put the name drivers then we will get drivers folders
 
-** in driver folder we will put the chrome driver
+
