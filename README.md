@@ -97,4 +97,19 @@ we will create five folder under java packages
 step 4 ****** click on features folder then click on new then select file and given name LoggedIn.feature
 
 
+***************************************************************
+
+Setting Allure report
+
+***************************************************************
+
+Step 1: Check the cucumber version in POM.XML file
+
+Step 2: All plugin Allure TestOps Support
+
+Step 3: Make Changes in pom.xml, add maven dependency with respect to the cucumber version, here we have cucumber 6.11.0 so we have added dependency allure-cucumber6-jvm,  allure-junit4 maven dependency,  dependency management for allure and surefire plugin ( Refer pom.xml for more details)
+
+Step 4: create 2 files under test folder, allure.properties(cucumber.plugin=io.gameta.allure.cucumber6jvm.AllureCucumber6Jvm) and junit-platform.properties.properties(cucumber.plugin=io.gameta.allure.cucumber6jvm.AllureCucumber6Jvm)
+
+
 
