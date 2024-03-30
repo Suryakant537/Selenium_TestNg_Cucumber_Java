@@ -111,5 +111,14 @@ Step 3: Make Changes in pom.xml, add maven dependency with respect to the cucumb
 
 Step 4: create 2 files under test folder, allure.properties(cucumber.plugin=io.gameta.allure.cucumber6jvm.AllureCucumber6Jvm) and junit-platform.properties.properties(cucumber.plugin=io.gameta.allure.cucumber6jvm.AllureCucumber6Jvm)
 
+Step 5: Modify runner file, add plugin of allure with cucumber (plugin = {"io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"})
+
+Step 6:Now add allure command line with command- > npm install -g allure-commandline --save -dev
+
+Step 7: Run the test case and to generate allure report run the command ( allure generate allure-results --clean -o allure-report )
+
+if there is issue of restriction run the command (Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted)
+
+
 
 
