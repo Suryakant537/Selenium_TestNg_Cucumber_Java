@@ -120,5 +120,19 @@ Step 7: Run the test case and to generate allure report run the command ( allure
 if there is issue of restriction run the command (Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted)
 
 
+===========================
+Add following lines in pom.xml file
 
+<properties>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+Maven sets the default to 1.5 otherwise. You will also need to include the maven-compiler-plugin if you haven't already:
+
+
+<dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.8.1</version>
+</dependency>
 
